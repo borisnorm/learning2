@@ -10,6 +10,6 @@ void main() {
     for (int num : numbers) {
         sum += num;
     }
-
+    //update output
     cout << "The sum of the numbers is: " << sum << endl;
 }
