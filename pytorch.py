@@ -30,7 +30,7 @@ for t in range(2000):
     grad_c = (grad_y_pred * x ** 2).sum()
     grad_d = (grad_y_pred * x ** 3).sum()
 
-    # Update weights
+    # Update weights using gradient descent
     a -= learning_rate * grad_a
     b -= learning_rate * grad_b
     c -= learning_rate * grad_c
